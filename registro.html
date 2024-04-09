@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>   
+    <nav><center>
+
+        <a href="index.html">Inicio</a>  
+        <a href="nosotros.html">Nosotros</a>  
+        <a href="servicios.html">Servicios</a> 
+        <a href="contacto.html">Contactos</a> 
+        
+    </nav></center>
+    <h2>Pagina de Registro</h2>
+    <!--input para nombre-->
+    <form method="post" action="resultados.html" class="formRegis">
+    <div class="Nom">
+    <label for="nombre">Nombre</label>
+    <input placeholder="nombre" class="entrada" type="text" name="nom" id="nombre">
+    </div>
+    
+    <!--input para apellido-->
+    <div class="Ape">
+        <label for="apellido">Apellido</label>
+        <input placeholder="apellido" class="entrada" type="text" name="ape" id="apellido">
+        </div>
+        
+    <!--input para genero-->
+    <div class="Gen">
+    <label for="genero">Masculino</label>
+    <input type="checkbox" name="masc" id="Masculino">
+    <label for="">Femenino</label>
+    <input class="entrada" type="checkbox" name="fem" id="Femenino">
+    </div>
+    
+    <!--input para cumpleaños-->
+    <div class="Fec">
+        <label for="">Fecha de nacimiento</label>
+        <input class="entrada" type="date" name="Fecha de nacimiento" id="nacimiento">
+        </div>
+        
+    <!--input para correo-->
+    <div class="Cor">
+    <label for="correo">Correo</label>
+    <input placeholder="ingrese su correo" class="entrada" type="email" name="cor" id="correo">
+    </div>
+    
+    <!--input para contraseña-->
+    <div class="Con">
+    <label for="contraseña">Contraseña</label>
+    <input placeholder="contraseña" class="entrada" type="password" name="con" id="contraseña">
+    </div>
+    
+    <!--input de direccion-->
+    <div>
+    <label for="direccion">direccion</label>
+    <textarea placeholder="direccion" class="entrada" name="direccion" id="direccion" cols="30" rows="4"></textarea>
+    </div>
+    
+    <!--sumit-->
+    <input class="enviar" type="submit" value="registar">
+</form>
+</body>
+</html>
